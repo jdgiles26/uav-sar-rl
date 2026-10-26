@@ -2,9 +2,6 @@
 
 **Team Orienteering Problem with Charging Stations**
 
-[![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/)
-[![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://streamlit.io)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Implementation of reinforcement learning approaches for routing multiple UAVs in search and rescue operations with battery constraints and charging stations.
 
@@ -128,7 +125,7 @@ This is an **NP-hard** problem combining Knapsack and Traveling Salesman Problem
 ### Step 1: Clone Repository
 
 ```bash
-git clone https://github.com/sanidhya-karnik/uav-search-rescue-rl.git
+git clone 
 cd uav-search-rescue-rl
 ```
 
@@ -535,18 +532,6 @@ agent = DQNAgent(env, hidden_dims=[128, 128, 64], batch_size=32)
 
 ---
 
-## 📝 Citation
-
-### This Implementation
-
-```bibtex
-@software{karnik2025uav,
-  author = {Karnik, Sanidhya},
-  title = {Multi-Agent RL for UAV Search and Rescue: Implementation},
-  year = {2025},
-  publisher = {GitHub},
-  url = {https://github.com/sanidhya-karnik/uav-search-rescue-rl}
-}
 ```
 
 ### Original Paper
@@ -571,13 +556,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🙏 Acknowledgments
-
-- Original paper by Qian et al. (2025) from Northeastern University
-- Course: IE7295 Applied Reinforcement Learning
-- Libraries: NumPy, PyTorch, Streamlit, Plotly, scikit-learn, PuLP
-
----
+--
 
 ## 📚 References
 
